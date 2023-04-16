@@ -12,5 +12,3 @@ banco_db.commit()
 
 cursor.execute('SELECT * from pessoas')
 print(cursor.fetchall())
-
-banco_db execute()
