@@ -1,14 +1,15 @@
 import sqlite3
 
-banco_db = sqlite3.connect('banco_dados.db')
+banco = sqlite3.connect('banco.github')
+cursor = banco.cursor()
 
-cursor = banco_db.cursor()
+sql = '''
+    CREATE TABLE Pessoas (
+        id INT,
+        Nome VARCHAR(50)
+    );
+'''
+cursor.execute(sql)
 
-cursor.execute('CREATE table pessoas (nome text, idade integer, email text)')
-
-cursor.execute('INSERT into pessoas values ("Alexandre", 35, "alexandrec191@gmail.com")')
-
-banco_db.commit()
-
-cursor.execute('SELECT * from pessoas')
-print(cursor.fetchall())
+banco.commit
+banco.close
