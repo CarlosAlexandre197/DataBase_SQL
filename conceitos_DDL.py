@@ -22,7 +22,7 @@
 '''DROP TABLE fornecedor;'''
 
 # O último comando dentre os mais importantes da categoria DDL é o DROP. 
-# Ele destrói toda estrutura da tabela e os seus dados. 
+# Esse comando destrói toda estrutura da tabela e os seus dados. 
 
 '''Os comandos DDL são normalmente utilizados quando as tabelas e índices do banco de dados estão sendo estruturados. 
 Uma vez que a estrutura esteja pronta, os comandos mais utilizados são realmente os que pertencem à categoria de manipulação de dados (DML), 
