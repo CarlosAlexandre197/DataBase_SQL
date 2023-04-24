@@ -8,7 +8,7 @@ cursor = banco.cursor()
 
 #cursor.execute("CREATE TABLE lista_casamento (id integer, orgao text, convidados text)")
 
-cursor.execute("INSERT INTO lista_casamento VALUES (11, 'Família', 'Davi' )")
+cursor.execute("INSERT INTO lista_casamento VALUES (12, 'Igreja', 'Pastor' )")
 
 #cursor.execute("DELETE from lista_casamento WHERE id = 1") # deletando um item da lista
 
