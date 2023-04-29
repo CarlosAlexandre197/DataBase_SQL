@@ -1,2 +1,2 @@
-# DB_Sqlite
-Tabela criada com Python fazendo conexão com o Banco de Dados Sqlite. 
+# DataBase_Sqlite
+Table created with Python connecting to the Sqlite Database.
