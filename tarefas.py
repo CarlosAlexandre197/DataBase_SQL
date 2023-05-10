@@ -1,8 +1,8 @@
 '''Neste programa, criamos duas tabelas: categorias e tarefas. A tabela categorias possui um campo id (chave primária) e um campo nome. 
 A tabela tarefas possui um campo id (chave primária), um campo nome, um campo data, um campo status (que indica se a tarefa foi realizada ou não)
-e um campo id_categoria (chave estrangeira que referencia a tabela categorias).
+e um campo id_categoria (chave estrangeira que referencia a tabela categorias).'''
 
-O relacionamento entre as tabelas é One-to-Many (Um-para-Muitos), já que uma categoria pode ter várias tarefas, mas cada tarefa pertence a apenas uma categoria.
+'''O relacionamento entre as tabelas é One-to-Many (Um-para-Muitos), já que uma categoria pode ter várias tarefas, mas cada tarefa pertence a apenas uma categoria.
 Este programa criará um arquivo chamado tarefas.db, onde as tabelas serão armazenadas. Se o arquivo já existir, ele apenas se conectará a ele. 
 O código utiliza a biblioteca sqlite3 do Python para interagir com o banco de dados SQLite.'''
 
