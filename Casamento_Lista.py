@@ -1,4 +1,4 @@
-'''Lista de Casamento'''
+'''Lista do meu Casamento'''
 
 import sqlite3
 
