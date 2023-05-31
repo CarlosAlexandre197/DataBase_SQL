@@ -1,4 +1,4 @@
-'''Lista do meu Casamento'''
+'''Programa para a criação do Banco de Dados da Lista de Convidados do meu Casamento!'''
 
 import sqlite3
 
