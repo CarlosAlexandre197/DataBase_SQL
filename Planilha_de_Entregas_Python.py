@@ -15,7 +15,7 @@ import sqlite3
 conexao = sqlite3.connect('Planilha_Junho.2023.DB')
 cursor = conexao.cursor()
 
-cursor.execute("CREATE TABLE Planilha_de_Entregas (id INTEGER, Data TEXT, Taguatinga INTEGER, Ceilândia INTEGER, Omni_Channel INTEGER, Assinatura VARCHAR(25), Total TEXT)")
+cursor.execute("CREATE TABLE Planilha_de_Entregas (id INTEGER NOT NULL PRIMARY KEY, Data TEXT, Taguatinga INTEGER, Ceilândia INTEGER, Omni_Channel INTEGER, Assinatura VARCHAR(25), Total TEXT)")
 planilha_de_dados = ("INSERT INTO Planilha_de_Entregas (id, Data, Taguatinga, Ceilândia, Omni_Channel, Assinatura, Total) VALUES(?, ?, ?, ?, ?, ?, ?)")
 valores = [id, data, taguatinga, ceilandia, omni_channel, assinatura, total]
 
