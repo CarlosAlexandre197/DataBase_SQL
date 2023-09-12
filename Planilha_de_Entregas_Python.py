@@ -12,7 +12,7 @@ total = taguatinga + ceilandia + omni_channel
 
 import sqlite3
 
-conexao = sqlite3.connect('Planilha_Junho.2023.DB')
+conexao = sqlite3.connect('Planilha_Setembro.2023.DB')
 cursor = conexao.cursor()
 
 cursor.execute("CREATE TABLE Planilha_de_Entregas (id INTEGER NOT NULL PRIMARY KEY, Data TEXT, Taguatinga INTEGER, Ceilândia INTEGER, Omni_Channel INTEGER, Assinatura VARCHAR(25), Total TEXT)")
