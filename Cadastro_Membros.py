@@ -15,7 +15,7 @@ import sqlite3
 conexao = sqlite3.connect('Cadastro_de_Membros.DB')
 cursor = conexao.cursor()
 
-cursor.execute("CREATE TABLE Cadastro_de_Membros (id TEXT, Nome TEXT, Endereço TEXT, Cidade TEXT, Telefone TEXT, Whatsapp TEXT, Visitas TEXT, Convertido)")
+cursor.execute("CREATE TABLE Cadastro_de_Membros (id TEXT, Nome TEXT, Endereço TEXT, Cidade TEXT, Telefone TEXT, Whatsapp TEXT, Visitas TEXT, Convertido TEXT)")
 planilha_de_dados = ("INSERT INTO Cadastro_de_Membros (id, Nome, Endereço, Cidade, Telefone, Whatsapp, Visitas, Convertido) VALUES(?, ?, ?, ?, ?, ?, ?, ?)")
 valores = [id, nome, endereco, cidade, telefone, whatsapp, visitas, convertido]
 
