@@ -1,4 +1,4 @@
-'''Planilha de Entregas Escritório 2024-06-19'''
+'''Planilha de Entregas Escritório 2024-06-20'''
 
 print('Vamos começar!!!')
 data = input('Data: ')
