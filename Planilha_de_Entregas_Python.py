@@ -1,6 +1,6 @@
 '''Planilha de Entregas Escritório 2024-07-22'''
 
-print('Vamos começar!!!')
+print('Vamos começar?')
 data = input('Data: ')
 taguatinga = int(input('Quantidade Taguatinga? '))
 ceilandia = int(input('Quantidade Ceilândia? '))
