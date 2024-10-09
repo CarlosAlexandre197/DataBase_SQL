@@ -1,4 +1,4 @@
-'''Cadastro de Visitantes ADSAM 317 ano 2024'''
+'''Cadastro de Visitantes ADSAM 317 do ano 2024'''
 
 print('Vamos lá!!!')
 id = input('Data: ')
