@@ -1,6 +1,6 @@
 '''Cadastro de Visitantes ADSAM 317 do ano 2024'''
 
-print('Vamos lá!!!')
+print('Vamos começar!!!')
 id = input('Data: ')
 nome = input('Nome: ')
 endereco = input('Endereço: ')
