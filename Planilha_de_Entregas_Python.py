@@ -1,4 +1,4 @@
-'''Planilha de Entregas Escritório 2025-10-17
+'''Planilha de Entregas Escritório 2025-10-18
 '''
 
 print('Vamos começar?')
