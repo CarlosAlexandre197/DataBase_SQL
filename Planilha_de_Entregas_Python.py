@@ -1,7 +1,7 @@
-'''Planilha de Entregas do Escritório 2026-01-20'''
+'''Planilha de Entregas do Escritório 2026-01-21'''
 
 print('Vamos começar?')
-data = input('Data: ')
+data = : ')
 taguatinga = int(input('Quantidade Taguatinga? '))
 ceilandia = int(input('Quantidade Ceilândia? '))
 omni_channel = int(input('Quantidade OMNI Channel? '))
