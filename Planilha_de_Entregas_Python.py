@@ -1,4 +1,4 @@
-'''Planilha de Entregas do Escritório 2026-02-26'''
+'''Planilha de Entregas do Escritório 2026-03-03'''
 
 print('Vamos começar?')
 data = : ')
@@ -11,7 +11,7 @@ total = taguatinga + ceilandia + omni_channel
 
 import sqlite3
 
-conexao = sqlite3.connect('Planilha_janeiro_2026.DB')
+conexao = sqlite3.connect('Planilha_março_2026.DB')
 cursor = conexao.cursor()
 
 cursor.execute("CREATE TABLE Planilha_de_Entregas (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, Data TEXT, Taguatinga INTEGER, Ceilândia INTEGER, Omni_Channel INTEGER, Assinatura VARCHAR(25), Total TEXT)")
