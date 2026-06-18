@@ -1,4 +1,4 @@
-'''Planilha de Entregas 2026-06-17'''
+'''Planilha de Entregas 2026-06-18'''
 
 print('Vamos começar?')
 data = : ')
