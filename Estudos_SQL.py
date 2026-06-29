@@ -1,5 +1,5 @@
 print('Cadastro de Pedidos para entrega')
-id = int(input('Pedido: '))
+id = int(input('Pedidos: '))
 loja = int(input('Código: '))
 destinatario = input('Cliente: ')
 telefone = int(input('Telefone: '))
